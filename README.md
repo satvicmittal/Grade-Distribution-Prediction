@@ -11,4 +11,14 @@ For this project, anonymised test results of 3 cohorts are utilized.
 
 ## Instructions to Run the code
 
-1. Run 
+1. Run the python file 'Exam_Attempt_Cleaning_Final.ipynb'. Load the excel file 'Consolidated_practice_attempt_log.csv'. 
+   Output : 'Attempt_Details_Exam_Cleaned.csv'
+   
+2. Run the python file 'Exam_Attempt_Cleaning_Final.ipynb'. Load the excel file 'Consolidated_final_attempt_log.csv'. 
+   Output : 'Merged_Final_Exam.csv'
+   
+3. Run the python file 'Data_Generation_Model.ipynb'. Load the excel files 'Filtered_practice_attempt_log.csv' and 'Merged_Final_Exam.csv'. 
+   Output : 'extrapolated_dataset.csv', 'test_dataset.csv'
+   
+4. Run the python file 'Grade_Distribution_Model.ipynb'. Load the excel files 'extrapolated_dataset.csv' and 'test_dataset.csv'.
+   Output : Grade Distribution Prediction

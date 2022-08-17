@@ -25,4 +25,4 @@ For this project, anonymised test results of 3 cohorts are utilized.
 5. Run the python file 'Grade_Distribution_Model.ipynb'. Load the excel files 'extrapolated_dataset.csv' and 'test_dataset.csv'.
    Output : Grade Distribution Prediction
    
-### Due to GDPR guidelines data files have not been uploaded on the repository.
+### Please note that due to GDPR guidelines data files have not been uploaded on the repository. For further imformation please contact the author.
